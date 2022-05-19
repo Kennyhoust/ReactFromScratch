@@ -1,0 +1,12 @@
+.header1{
+  background-color: #ff5506;
+  height: 25px;
+}
+
+.start{ width: 30% ;
+  float:left;
+}
+
+.end{width: 20% ;
+  float: right;
+}
