@@ -1,12 +1,40 @@
-.header1{
-  background-color: #ff5506;
-  height: 25px;
+html,
+body {
+  height: 100%;
 }
 
-.start{ width: 30% ;
-  float:left;
+body {
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
 }
 
-.end{width: 20% ;
-  float: right;
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
 }
